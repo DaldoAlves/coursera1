@@ -1,0 +1,66 @@
+body{
+    background-color: aqua;
+}
+
+.menu{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 40px;
+    width: 30%;
+    margin: auto;
+}
+.conteiner{
+    position: absolute;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 800px;
+    min-width: 0;
+    min-height: 0%;
+}    
+.titulo1{
+    position: relative;
+    background-color: red;
+    width: 50px;
+    left: 360px;
+    top: 47px;
+}
+.beef{
+    background-color: bisque;
+    width: 50%;
+    padding: 5px;
+}
+.titulo2{
+    position: relative;
+    background-color: blueviolet;
+    width: 50px;
+    left: 810px;
+    bottom: 122px;
+    z-index: 1;
+    
+}
+.fish{
+    position: relative;
+    left: 450px;
+    bottom: 170px;
+    background-color: bisque;
+    width: 50%;
+    padding: 5px;
+    
+}
+.titulo3{
+    position: relative;
+    background-color: yellow;
+    width: 60px;
+    left: 1250px;
+    bottom: 292px;
+    z-index: 1;
+
+}
+.pasta{
+    position: relative;
+    left: 900px;
+    bottom: 340px;
+    background-color: bisque;
+    width: 50%;
+    padding: 5px; 
+}
