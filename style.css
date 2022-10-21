@@ -1,66 +1,59 @@
 body{
-    background-color: aqua;
+    background-color: mistyrose;
 }
-
 .menu{
-    background-color: lightblue;
     text-align: center;
-    font-size: 40px;
-    width: 30%;
-    margin: auto;
+    font-size: 60px;
 }
-.conteiner{
-    position: absolute;
-    margin: 0 auto;
-    width: 95%;
-    max-width: 800px;
-    min-width: 0;
-    min-height: 0%;
-}    
-.titulo1{
-    position: relative;
-    background-color: red;
-    width: 50px;
-    left: 360px;
-    top: 47px;
+.conteudo{
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300fr 300fr 300fr;
+    height: 200px;
+    grid-gap: 20px;
+    text-align: left;
+    
+}
+.grid div{
+    font-size: 1.6rem;
+    background-color: mistyrose;
 }
 .beef{
-    background-color: bisque;
-    width: 50%;
-    padding: 5px;
+    text-align: right;
+    color: red; 
+    font-weight: bolder;    
+    z-index: 1;  
 }
-.titulo2{
-    position: relative;
-    background-color: blueviolet;
-    width: 50px;
-    left: 810px;
-    bottom: 122px;
-    z-index: 1;
-    
+.content1{
+    text-align: left;
+    color: black;
+    background-color: aqua;
+    margin-top: 0;
+    box-shadow: 2px 2px 2px black;
 }
 .fish{
-    position: relative;
-    left: 450px;
-    bottom: 170px;
-    background-color: bisque;
-    width: 50%;
-    padding: 5px;
-    
+    text-align: right;
+    color: blueviolet;
+    font-weight: bolder;
 }
-.titulo3{
-    position: relative;
-    background-color: yellow;
-    width: 60px;
-    left: 1250px;
-    bottom: 292px;
-    z-index: 1;
-
+.content2{
+    text-align: left;
+    color: black;
+    background-color: aqua;
+    margin-top: 0;
+    box-shadow: 2px 2px 2px black;
 }
 .pasta{
-    position: relative;
-    left: 900px;
-    bottom: 340px;
-    background-color: bisque;
-    width: 50%;
-    padding: 5px; 
+    text-align: right;
+    color: yellow;
+    font-weight: bolder;
+}
+.content3{
+    text-align: left;
+    color: black;
+    background-color: aqua;
+    margin-top: 0;
+    box-shadow: 2px 2px 2px black;
 }
